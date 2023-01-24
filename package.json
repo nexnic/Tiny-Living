@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "This Rent site for vans ",
   "main": "index.js",
-  "scripts": { "compile:sass": "node-sass sass/main.scss css/main.css -w" },
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/main.css -w"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nexnic/Tiny-Living.git"
@@ -16,5 +18,8 @@
   "homepage": "https://github.com/nexnic/Tiny-Living#readme",
   "devDependencies": {
     "node-sass": "^8.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.0"
   }
 }
