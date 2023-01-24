@@ -1,0 +1,24 @@
+{
+  "name": "tiny-living",
+  "version": "1.0.0",
+  "description": "This is landing page for tiny - Living",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^5.2.0",
+    "node-sass": "^8.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nexnic/Tiny-Living.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nexnic/Tiny-Living/issues"
+  },
+  "homepage": "https://github.com/nexnic/Tiny-Living#readme"
+}
