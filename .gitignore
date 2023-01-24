@@ -1,0 +1,4 @@
+# GitIgnore
+# This file for removing folder or File for git Tracking 
+
+/node_modules
