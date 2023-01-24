@@ -1,0 +1,35 @@
+// Main sass file
+
+// Abstract 
+    // Functions 
+        @import "abstract/functions";
+    // Mixins
+        @import "abstract/mixins";
+    // Variables 
+        @import "abstract/variables";
+
+// Base 
+    // Animations 
+        @import "base/animations";
+    // Base 
+        @import "base/base";
+    // Typography
+        @import "base/typography";
+    // Utilities 
+        @import "base/utilities";
+
+// Components 
+    // Buttons 
+        @import "components/buttons";
+
+// Layout
+    // Footer 
+        @import "layout/footer";
+    // Header 
+        @import "layout/header";
+    // Nav
+        @import "layout/nav";
+
+// Page 
+    // Home
+        @import "page/home";
