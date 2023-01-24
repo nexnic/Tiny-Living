@@ -1,0 +1,4 @@
+# Git Ignore 
+# Git Ignore file is for select fils & folder to ignore them
+
+/node_modules
