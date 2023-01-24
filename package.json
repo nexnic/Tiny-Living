@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "This Rent site for vans ",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": { "compile:sass": "node-sass sass/main.scss css/style.css -w" },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nexnic/Tiny-Living.git"
@@ -15,5 +13,8 @@
   "bugs": {
     "url": "https://github.com/nexnic/Tiny-Living/issues"
   },
-  "homepage": "https://github.com/nexnic/Tiny-Living#readme"
+  "homepage": "https://github.com/nexnic/Tiny-Living#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
 }
