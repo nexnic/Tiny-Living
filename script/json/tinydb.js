@@ -3,7 +3,7 @@
 // Use strict mode
     'use strict';
 
-let tl = {
+let tldb = [
     /*
     // Templet for this database 
     [0]: {
@@ -63,7 +63,7 @@ let tl = {
 
     },
     */
-    [0]: {
+    {
         name: "Snug & Cozy Livings",
         short_desciption: "This place where you will get peach of mind. ",
         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, facilis tempora laborum obcaecati quia consequuntur rerum, harum, molestias labore vitae perspiciatis. Ratione alias placeat minima cupiditate quia illo libero necessitatibus!",
@@ -93,7 +93,7 @@ let tl = {
             [0]: "./src/image/product/TL--01.jpg",
         },
     },
-    [1]: {
+    {
         name: "Hillside Huts",
         short_desciption: "This place where you can fish and tak hike only 1 min walk",
         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, facilis tempora laborum obcaecati quia consequuntur rerum, harum, molestias labore vitae perspiciatis. Ratione alias placeat minima cupiditate quia illo libero necessitatibus!",
@@ -123,7 +123,7 @@ let tl = {
             [0]: "./src/image/product/TL--02.jpg",
         },
     },
-    [2]: {
+   {
         name: "The Small Scale Spaces",
         short_desciption: "You can rent this place where you like to go",
         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, facilis tempora laborum obcaecati quia consequuntur rerum, harum, molestias labore vitae perspiciatis. Ratione alias placeat minima cupiditate quia illo libero necessitatibus!",
@@ -153,7 +153,7 @@ let tl = {
             [0]: "./src/image/product/TL--03.jpg",
         },
     },
-    [3]: {
+    {
         name: "Triny",
         short_desciption: "You want try van life before you buy it",
         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, facilis tempora laborum obcaecati quia consequuntur rerum, harum, molestias labore vitae perspiciatis. Ratione alias placeat minima cupiditate quia illo libero necessitatibus!",
@@ -183,7 +183,7 @@ let tl = {
             [0]: "./src/image/product/TL--04.jpg",
         },
     },
-    [4]: {
+    {
         name: "Lex",
         short_desciption: "This van is Perfect first time van to test",
         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, facilis tempora laborum obcaecati quia consequuntur rerum, harum, molestias labore vitae perspiciatis. Ratione alias placeat minima cupiditate quia illo libero necessitatibus!",
@@ -213,7 +213,7 @@ let tl = {
             [0]: "./src/image/product/TL--05.jpg",
         },
     },
-    [5]: {
+    {
         name: "Trinity",
         short_desciption: "This make life easy",
         description: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero, facilis tempora laborum obcaecati quia consequuntur rerum, harum, molestias labore vitae perspiciatis. Ratione alias placeat minima cupiditate quia illo libero necessitatibus!",
@@ -243,4 +243,5 @@ let tl = {
             [0]: "./src/image/product/TL--05.jpg",
         },
     },
-};
+
+]
