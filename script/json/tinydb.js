@@ -4,6 +4,8 @@
     'use strict';
 
 let tl = {
+    /*
+    // Templet for this database 
     [0]: {
         // Title of the product 
         // Name of product
@@ -60,4 +62,5 @@ let tl = {
         },
 
     },
+    */
 };
