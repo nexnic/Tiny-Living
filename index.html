@@ -5,15 +5,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/images/logo/icon.png" type="image/x-icon">
     <!-- Title -->
-    <title>Document</title>
+    <title>Tiny Living | Sign in</title>
     <!-- CSS fil -->
     <link rel="stylesheet" href="./dist/css/main.css">
 </head>
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+        <h1 class="visually-hidden">Tiny life</h1>
+        <div class="px-4 py-5 mx-auto md-4 text-center w-75">
+            <img class="d-block mx-auto mb-4 " src="./assets/images/logo/logo.png" alt="" width="300px" >
+            <h2 class="fw-blod">Home is where you Park it.</h2>
+            <p class="">
+                Tiny house movement has more than only start is has bigg effect on family and students, special when price of house is around 3.5 mil average in Norway.So now it’s on time tiny life movement get more close. so share your tips and helpful trick. 
+            </p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#popup-sign">
+                Launch demo modal
+              </button>
+        </div>
+        <!-- Sign form-->
+        <!-- Default hidden -->
+        <div class="modal fade" id="popup-sign" tabindex="-1" role="dialog" aria-labelledby="" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h2>Sign in</h2>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <form method="get" action="/home.html" class="modal-body requires-validation" novalidate>
+                  <div class="form-label-group pb-3">
+                    <input type="email" class="form-control" id="inputEmail" required autofocus>
+                    <label for="inputEmail">Email address</label>
+                  </div>
+                  <div class="form-label-group pb-3">
+                    <input type="password" class="form-control" id="inputPassword">
+                    <label for="inputPassword">Password</label>
+                    <a href="#">Forgott</a>
+                  </div>
+                  <!-- inputs goes here -->
+                    <button class="btn btn-small btn-primary" type="submit">Sign in</button>
+                  </form>
+              </div>
+            </div>
+          </div>
+            
+    </header>
+    <main>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p class="text-center text-muted">&copy; 2023 Tiny Living</p>
+                    <ul class="">
+                        <li>
+                            
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- Bootstrap script -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
