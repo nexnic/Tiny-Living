@@ -28,15 +28,21 @@
     function modelprofile(value1) {
         console.log(value1)
 
+        // Reset the Modeler
+            mhp.innerHTML + ``
+            mbp.innerHTML + ``
+
         // Profile Title Image
             const pti = 'Change image'
         // Profile Body Image
-            const pbi = 'Press save ofter adding image'
-
+            const pbi = 'Press save after adding new photo'
+        // Profile Title Email 
+            const pte =  'Change email'
+        // Profile Body Email
+            const pbe =  'Press save after adding new email'
         if(value1 === "image") {
             // Use for test
             // console.log('test ok')
-
             // Headline 
             mhp.innerHTML += `
                 ${pti}
@@ -49,8 +55,20 @@
                     <p>${pbi}</p>
                 </div>
             `
-            
+        }
+        if(value1 === 'email') {
+            console.log('Email start')
+            mhp.innerHTML += `
+                ${pte}
 
+            `;
+            mbp.innerHTML += `
+                <div class="mb-3">
+                    <label for="recipient-name" class="col-form-label"></label>
+                    <input type="email" name="" id="Change-email" class="form-control">
+                    <p>${pbe}</p>
+                </div>
+            `;
         }
     }
 
