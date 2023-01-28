@@ -9,7 +9,7 @@
     <!-- Title -->
     <title>Tiny Living | Sign in</title>
     <!-- CSS fil -->
-    <link rel="stylesheet" href="./dist/css/main.css">
+    <link rel="stylesheet" href="./dist/css/style.css">
 </head>
 <body>
     <header>
@@ -35,7 +35,7 @@
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
-                <form method="get" action="/home.html" class="modal-body requires-validation" novalidate>
+                <form method="get" action="/home.html" class="requires-validation" novalidate>
                   <div class="form-label-group pb-3">
                     <input type="email" class="form-control" id="inputEmail" required autofocus>
                     <label for="inputEmail">Email address</label>
@@ -55,20 +55,25 @@
     </header>
     <main>
     </main>
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <p class="text-center text-muted">&copy; 2023 Tiny Living</p>
-                    <ul class="">
-                        <li>
-                            
-                        </li>
-                    </ul>
-                    
-                </div>
+    <footer class="fixed-bottom">
+      <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <p class="text-center text-muted">&copy; 2023 Tiny Living</p>
+                <ul class="d-flex bg-primary justify-content-center gap-3">
+                    <li>
+                        <a href="#" class="link-light">About US</a>
+                    </li>
+                    <li>
+                      <a href="#" class="link-light">Contact us</a>
+                    </li>
+                    <li>
+                      <a href="" class="link-light">Join us</a>
+                    </li>
+                </ul>
             </div>
         </div>
+    </div>
     </footer>
     <!-- Bootstrap script -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
