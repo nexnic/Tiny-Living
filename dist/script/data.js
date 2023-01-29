@@ -45,7 +45,7 @@ let tlFeed = [
         short_desciption: "This place where you will get peach of mind. ",
         place: "norway",
         image:  "../../assets/images/feed_04.jpg",
-        image_alt: "Image of woman lay in bed inside a van"
+        image_alt: "Image of woman lay in bed inside a van",
         meta: {
             userName: "Calvin Oliver",
             UserImage: "../../assets/images/userprofile.jpg", 
