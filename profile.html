@@ -113,22 +113,22 @@
                         <div class="accordion-body">
                             <ul class="d-flex flex-wrap gap-4 justify-content-center list-unstyled">
                                 <li>
-                                    <button type="button"  onclick="modelprofile('image')" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <button type="button"  onclick="modelprofile('image')" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#popup-form-profile">
                                     Change it 
                                     </button>
                                 </li>
                                 <li>
-                                    <button type="button"  onclick="modelprofile('email')" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <button type="button"  onclick="modelprofile('email')" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#popup-form-profile">
                                         Change it 
                                     </button>
                                 </li>
                                 <li>
-                                    <button type="button"  onclick="modelprofile('password')" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <button type="button"  onclick="modelprofile('password')" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#popup-form-profile">
                                         Change it 
                                     </button>
                                 </li>
                                 <li>
-                                    <button type="button"  onclick="modelprofile('bio')" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <button type="button"  onclick="modelprofile('bio')" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#popup-form-profile">
                                         Change it 
                                     </button>
                                 </li>
@@ -160,7 +160,25 @@
             </ul>
       </div>
     </footer>
-
+    <!-- Modal popup-->
+      <!-- Default Hidden -->
+        <div class="modal fade" id="popup-form-profile" tabindex="-1" role="dialog" aria-labelledby="popup-form-profile" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h2 id="modal-profile-title"></h2>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body" id="modal-profile-body"></div>
+              <div class="modal-footer" id="modal-profile-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
     
     <!-- Bootstrap script -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
