@@ -13,27 +13,25 @@
         // modal footer index
             const mfi = document.querySelector('#modal-index-footer');
 
+    // Home Page 
+        // Feed section 
+            const fsh = document.querySelector('#tl-feed');
 
     // Profile Site 
         // Head of modal 
             // Modal Header Profile 
-            const mhp = document.querySelector('#modal-Profile-title')
+                const mhp = document.querySelector('#modal-profile-title')
         // Body of modal
             // Modal Body Profile
-            const mbp =  document.querySelector('#modal-Profile-body');
+                const mbp =  document.querySelector('#modal-profile-body');
+        // footer of modal
+            // modal Footer Profile
+                const mfp =  document.querySelector('#modal-profile-footer');
     
 
 
 
 
-
-// function last feed 
-    function lastfeed() {
-        
-    
-
-
-    }
 
 // Function Sign in Or sign up
     // Value1 btn
@@ -62,6 +60,32 @@ function signin() {
         `
 }
 
+function signup() {
+    mps.innerHTML =+ ``
+    mbi.innerHTML =+ ``
+    
+    mps.innerHTML += `
+        Welcome to Tiny living 
+    `
+    mbi.innerHTML += `
+        <form method="get" class="requires-validation" novalidate>
+            <div class="form-label-group pb-3">
+                <input type="text" name="firstname" class="form-control" id="firstname">
+                <label for="firstname">First Name</label>
+            </div>
+            <div class="form-label-group pb-3">
+                <input type="text" name="lastname" class="form-control" id="lastname">
+                <label for="last name">Last name</label>
+            </div>
+            <div class="form-label-group pb-3">
+                <input type="email" class="form-control" id="email">
+                <label for="email">Email</label>
+            </div>
+        </form>
+        <button class="btn btn-small btn-primary" type="submit">submit</button>
+    `
+
+}
 
 
 
@@ -146,4 +170,3 @@ function signin() {
             `
         }
     }
-
