@@ -12,24 +12,24 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg p-3 mb-3 bg-secondary">
+        <nav class="navbar  p-3 mb-3 bg-secondary">
             <div class="container-fluid">
                 <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse" id="navbar">
                   <ul class="navbar-nav text-center">
-                    <li><a href="#" class="nav-link px-2 link-light">Home</a></li>
+                    <li><a href="#" class="nav-link px-2 link-light active">Home</a></li>
                     <li><a href="#" class="nav-link px-2 link-light">Random</a></li>
                     <li><a href="#" class="nav-link px-2 link-light">about us</a></li>
                   </ul>
-                  <div class="d-flex flex-wrap justify-content-center">
+                  <div class="d-flex flex-wrap justify-content-between">
                     <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
                       <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
                     </form>
                     <div class="dropdown">
                       <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                        <img src="./assets/images/userprofile.jpg" width="32" height="32" class="rounded-circle" alt="Image of Profile">
+                        <img src="./assets/images/userprofile.jpg" width="32" height="32" class="rounded-circle" alt="Image of User Profile">
                       </a>
                       <ul class="dropdown-menu dropdown-menu-end dropdown-menu-lg-end text-small shadow">
                         <li><a class="dropdown-item" href="/profile.html">Profile</a></li>
@@ -65,30 +65,24 @@
             </div>
             
     </main>
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-12 bg-primary w-100 p-3">
-            <p class="text-center text-muted">&copy; 2023 Tiny Living</p>
+    <footer class="navbar bg-primary p-4 mt-4">
+      <div class="container-fluid">
+        <p class="text-center text-muted">&copy; 2023 Tiny Living</p>
             <ul class="list-unstyled d-flex justify-content-center gap-2 ">
-              <li class="">
-                <a href="#" class="text-white"> about us</a>
+              <li class="nav-item">
+                <a href="#" class="text-white nav-link"> about us</a>
               </li>
-              <li class="">
-                <a href="#" class="text-white"> Contact us</a>
+              <li class="nav-item">
+                <a href="#" class="text-white nav-link"> Contact us</a>
               </li>
-              <li class="">
-                <a href="#" class="text-white">Privacy</a>
+              <li class="nav-item">
+                <a href="#" class="text-white nav-link">Privacy</a>
               </li>
-              <li class="">
-                <a href="#" class="text-white">Conditions</a>
+              <li class="nav-item">
+                <a href="#" class="text-white nav-link">Conditions</a>
               </li>
             </ul>
-          </div>
-        </div>
-
       </div>
-      
     </footer>
     <!-- Bootstrap script -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
