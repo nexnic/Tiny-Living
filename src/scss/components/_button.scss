@@ -1,0 +1,19 @@
+
+
+    .custom-link {
+        color: #b3b3b3;
+        text-decoration: none;
+
+        &:hover {
+            color:#ffff;
+        }
+
+        &__active {
+            text-decoration: none;
+            color: #ffff;
+
+            &:hover {
+                color: #ffff;
+            }
+        }
+    }

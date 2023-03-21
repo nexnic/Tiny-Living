@@ -7,6 +7,21 @@ body {
   font-family: "Open Sans";
   src: url(/assets/font/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf) format("truetype");
 }
+.custom-link {
+  color: #b3b3b3;
+  text-decoration: none;
+}
+.custom-link:hover {
+  color: white;
+}
+.custom-link__active {
+  text-decoration: none;
+  color: white;
+}
+.custom-link__active:hover {
+  color: white;
+}
+
 /*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
