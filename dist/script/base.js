@@ -45,13 +45,13 @@ function signin() {
 
         `
         mbi.innerHTML += `
-        <form method="get" action="/home.html" class="requires-validation" novalidate>
+        <form method="get" action="/home.html" class="requires-validation">
             <div class="form-label-group pb-3">
                 <input type="email" class="form-control" id="inputEmail" required autofocus>
             <label for="inputEmail">Email address</label>
             </div>
             <div class="form-label-group pb-3">
-                <input type="password" class="form-control" id="inputPassword">
+                <input type="password" class="form-control" id="inputPassword" required>
                 <label for="inputPassword">Password</label>
                 <a href="#">Forgott</a>
             </div>
