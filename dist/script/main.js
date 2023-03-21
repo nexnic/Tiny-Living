@@ -5,7 +5,7 @@
 // Function for feed 
 function feed() {
     // Check the array
-    console.log(tlFeed);
+   
 
     tlFeed.forEach(tiny => {
         console.log(tiny.title)
