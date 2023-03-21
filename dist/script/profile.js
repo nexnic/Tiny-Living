@@ -13,7 +13,7 @@ function lastPost() {
     
     tlFeed.forEach(tf => {
         pf.innerHTML += `
-        <div class="col-2 pb-3">
+        <div class="col-lg-2 col-mb-4 pb-3">
             <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('${tf.image}'); background-position: center; background-size: cover;">
                 <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1" >
                     <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
